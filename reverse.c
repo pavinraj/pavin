@@ -3,17 +3,17 @@
 void main()
 {
 char a[100],b[100];
-  int i,j=0,c=0;
+  int i,j,c=0,k=0;
 printf("enter string");
 scanf("%s",&a);
   for(i=0;a[i]!='\0';i++)
       {
         c++;
       }
-for(i=c-1;a[i]=0;i++)
+for(j=c-1;a[j]=0;j++)
 {
-  b[j]=a[i];
-  j++;
+  b[k]=a[j];
+  k++;
 }
   printf("%s",b);
 getch();
