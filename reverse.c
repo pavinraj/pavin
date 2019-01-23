@@ -2,7 +2,8 @@
 #include<conio.h>
 void main()
 {
-char a[100],i,j,b[100];
+char a[100],b[100];
+  int i,j=0,c=0;
 printf("enter string");
 scanf("%s",&a);
   for(i=0;a[i]!='\0';i++)
