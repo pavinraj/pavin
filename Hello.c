@@ -2,9 +2,8 @@
 int main()
 {
 int t;
-char a[100];
+char a[100]="hello";
 scanf("%d",&t);
-scanf("%s",&a);
 while(t>0)
 {
 printf("%s",a);
