@@ -4,7 +4,7 @@ void main()
 {
 int n,f=0,i;
 scanf("%d",&n);
-for(i=0;i<n;i++)
+for(i=0;i<=n;i++)
 {
 f=f×i;
 }
