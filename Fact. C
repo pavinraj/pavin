@@ -3,10 +3,10 @@ int main()
 {
 int n,f=1,i;
 scanf("%d",&n);
-for(i=0;i<n;i++)
+for(i=1;i<5;i++)
 {
-f=f×i;
-}
+f=i×n
 printf("%d",f);
+}
 return 0;
 }
