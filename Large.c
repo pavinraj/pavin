@@ -9,7 +9,7 @@ scanf("%d",&a[i]);
 }
 for(j=0;j<n;j++)
 {
-if(a[j]>t)
+if(a[j]<t)
 {
 t=a[j];
 }
