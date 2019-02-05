@@ -2,6 +2,7 @@
 int main()
 {
 int a[100],i,j,t;
+ printf("enter n");
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
@@ -19,6 +20,7 @@ a[j]=t;
 }
 }
 }
+  printf("after sorting is:");
 for(i=0;i<n;i++)
 {
 printf("%d",a[i]);
