@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int n;
-scanf("%d",&n);
+long int n;
+scanf("%ld",&n);
 n=n+1;
-printf("%d",n);
+printf("%ld",n);
 return 0;
 }
