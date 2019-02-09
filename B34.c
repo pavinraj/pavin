@@ -7,10 +7,11 @@ scanf("%[^\n]",a);
 n=strlen(a);
 for(i=0;a[i]<n;i++)
 {
-if(a[i]=='\0')
+if(a[i]=='.')
 {
 i++;
-}}
+}
+  i=i+1;
   printf("%d",i);
   return 0;
   }
