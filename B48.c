@@ -12,6 +12,6 @@ for(i=0;i<n;i++)
 j=j+a[i];
 }
 i=j/2;
-printf("%d",j);
+printf("%d",i);
 return 0;
 }
