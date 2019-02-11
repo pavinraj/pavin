@@ -1,22 +1,16 @@
-#include<stdio.h>
-int main()
-{
-int n,i,j,f=0;
-scanf("%d",&n);
-for(i=1;i<=n;i++)
-{
-if(n%i==0)
-{
-f++;
-}
-}
-if(f==2)
-{
-printf("yes");
-}
 
-else
-{
+#include <stdio.h>
 
-return 0;
+int main(void) 
+{
+	int num;
+	printf("enter the number:");
+	scanf("%d",&num);
+	num+=1;
+	while(num%10!=0)
+	{
+		num=num+1;
+	}
+	printf("\n%d",num);
+	return 0;
 }
