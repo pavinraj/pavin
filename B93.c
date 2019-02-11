@@ -2,9 +2,9 @@
 
 int main(void) 
 {
-	int c,k;
+	int c,ke;
 	scanf("%d",&c);
-	k=c+273;
-	printf("%d",k);
+	ke=c+273;
+	printf("%d",ke);
 	return 0;
 }
