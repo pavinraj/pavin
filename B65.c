@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int main(void) 
+int main 
 {
 	char a[50];
 	int i;
