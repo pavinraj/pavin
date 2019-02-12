@@ -8,6 +8,6 @@ for(i=0;i<n;i++)
 s=s+a;
 a=a+(i×d);
 }
-printf("%d",s);
+printf("\n%d",s);
 return 0;
 }
