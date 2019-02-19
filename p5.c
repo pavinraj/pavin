@@ -28,8 +28,7 @@ int main(void)
             break;
      case 'D': 
             rom[i] =  500;
-            break;
-	 }
+            break; }
 }
 for(i=0;i<m;i=i+2)
 {
