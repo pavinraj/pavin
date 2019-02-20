@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-char a[100],b,c=0;
+char a[100],b,c=0,i;
 scanf("%s",&a);
 for(i=0;a[i]!='\0';i++)
 {
-ifi%2==0)
+if(i%2==0)
 {
 b=a[i];
 a[i]=a[i+1];
