@@ -16,9 +16,9 @@ int main(void)
 				max=count;
 				character=str[i];
 			}
-		}
+		}}
  
-	}
+}
 	printf("\n%c",character);
 	return 0;
 }
