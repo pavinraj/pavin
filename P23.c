@@ -1,4 +1,5 @@
-
+#include<stdio.h>
+{
 int main()
 {
     int n,k,a[100],i,b[10],max;
