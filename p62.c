@@ -13,8 +13,6 @@ int main(void)
 				printf("%d",i);
 				break;
 			}
-		}
-		
-	}
+		}	}
 	return 0;
 }
