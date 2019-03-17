@@ -8,6 +8,7 @@ int main(void)
 	{
 		rem=n%10;
 		array[i]=rem;
+		
 		i++;
 		count=count+1;
 		n=n/10;
