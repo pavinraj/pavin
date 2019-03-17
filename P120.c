@@ -10,6 +10,7 @@ while(n1>0)
 {
     rem=n1%2;
     bin=bin+rem*power;
+ 
     n1/=2;
     count++;
     power=power*10;
