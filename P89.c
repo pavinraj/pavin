@@ -6,7 +6,8 @@ int main() {
    d=n-k;
    for(i=1;i<=n;i++)
    {
-       f=f*i;
+     
+     f=f*i;
    }
    for(i=1;i<=d;i++)
    {
